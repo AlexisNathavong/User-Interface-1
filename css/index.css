@@ -26,3 +26,60 @@
 .intro tr:nth-child(even) {
   background-color: #dddddd;
 }
+.start-here-btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #0A235C;
+  color: #FFFFFF;
+  width: 100px;
+  height: 30px;
+  font-size: 13px;
+}
+.carousel {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 16px;
+}
+.carousel .left-button,
+.carousel .right-button {
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.carousel .left-button:hover,
+.carousel .right-button:hover {
+  color: #FFFFFF;
+  background-color: orange;
+  border: 2px solid;
+}
+.carousel .left-button {
+  top: 50%;
+  left: 25px;
+  transform: translate(0, -50%);
+}
+@mobile : (max-width: 500px) {
+  width: 20%;
+}
+.carousel .right-button {
+  top: 50%;
+  right: 25px;
+  transform: translate(0, -50%);
+}
+@mobile : (max-width: 500px) {
+  width: 20%;
+}
+@mobile : (max-width: 500px) {
+  width: 20%;
+}
+.carousel caption {
+  position: relative;
+  left: auto;
+  right: auto;
+}
