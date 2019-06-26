@@ -7,40 +7,55 @@
 }
 @media screen and (max-width: 500px) {
   .intro {
-    width: 100%;
+    width: 80%;
   }
 }
-.intro h1 {
+h1 {
   color: #0A235C;
   font-family: arial, sans-serif;
   text-align: center;
   margin-bottom: 60px;
   margin-top: 30px;
 }
-.intro .table-header {
+.table-header {
   width: 100%;
 }
-.intro .timeline-table {
+@media screen and (max-width: 500px) {
+  .table-header {
+    width: 94%;
+    padding-top: 30px;
+  }
+}
+.timeline-table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+  box-shadow: 5px 20px 18px grey;
+  width: 80%;
   margin: 85px;
 }
 @media screen and (max-width: 500px) {
-  .intro .timeline-table {
-    width: 90%;
+  .timeline-table {
+    width: 82%;
+    margin: 10px;
   }
 }
-.intro .table {
+.table {
   width: 100%;
 }
-.intro td,
-.intro th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
-.intro tr:nth-child(even) {
+tr:nth-child(even) {
   background-color: #FFEDEA;
+}
+@media screen and (max-width: 500px) {
+  .intro-text {
+    width: 100%;
+    margin: -18px;
+  }
 }
 @media screen {
   .middle-content {
@@ -76,7 +91,7 @@ button {
 }
 @media screen and (max-width: 500px) {
   .carousel {
-    width: 86%;
+    width: 80%;
     margin-right: 20px;
     margin-left: 50px;
     margin-top: 20px;
