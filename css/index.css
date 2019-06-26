@@ -159,6 +159,10 @@ button {
   padding-top: 60px;
   background-color: #FFEDEA;
 }
+.tabs img {
+  width: 140px;
+  height: 180px;
+}
 .tabs .tabs-item {
   display: none;
   width: 75%;
