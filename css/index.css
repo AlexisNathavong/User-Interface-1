@@ -173,7 +173,12 @@ button {
   padding-bottom: 10px;
 }
 .tabs .tabs-item-selected {
-  display: block;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.tabs .tabs-item-context {
+  text-align: center;
 }
 .tabs .tabs-links {
   display: flex;
@@ -183,8 +188,8 @@ button {
   padding: 20px 25px;
   font-size: 24px;
   background-color: #0A235C;
-  border-right: 1px solid white;
-  color: #FFEDEA;
+  border-right: 1px solid #FFFFFF;
+  color: #FFFFFF;
   cursor: pointer;
 }
 .tabs .tabs-link-selected {

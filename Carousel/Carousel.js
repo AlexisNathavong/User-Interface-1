@@ -30,7 +30,18 @@ class Carousel {
         this.imgs[this.index].style.display = "none";
         this.index -=1;
         this.imgs[this.index].style.display = "block";
+
+        if (this.imgs.length === this.index-1) {
+            this.index = 0;
+
+        }
+        else {
+            this.index += 1;
+ 
+        }        
+        this.imgs[this.index].style.display = "block";
     }
+    
 }
 
 let carousel = new Carousel(document.querySelector('.carousel'));
