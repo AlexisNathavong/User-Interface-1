@@ -149,7 +149,7 @@ button {
 .tabs {
   width: 42%;
   border: 1px solid;
-  margin: 40px;
+  margin: 0 auto;
 }
 .tabs .tabs-items {
   width: 100%;
@@ -160,8 +160,8 @@ button {
   background-color: #FFEDEA;
 }
 .tabs img {
-  width: 140px;
-  height: 180px;
+  width: 165px;
+  height: 199px;
 }
 .tabs .tabs-item {
   display: none;
@@ -179,6 +179,7 @@ button {
 }
 .tabs .tabs-item-context {
   text-align: center;
+  margin-left: 30px;
 }
 .tabs .tabs-links {
   display: flex;
@@ -200,4 +201,16 @@ button {
 }
 .tabs .tabs-link-selected:hover {
   background-color: #FFFFFF;
+}
+.tabs a {
+  border: 2px solid #0A235C;
+  color: white;
+  background-color: #0A235C;
+  text-decoration: none;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.tabs .tabs-item-description {
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
