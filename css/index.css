@@ -152,6 +152,14 @@ button {
   margin: 0 auto;
   box-shadow: 5px 20px 20px grey;
 }
+@media screen and (max-width: 500px) {
+  .tabs {
+    width: 92%;
+    margin-right: 30px;
+    margin-left: 20px;
+    border: 2px solid;
+  }
+}
 .tabs .tabs-items {
   width: 100%;
   height: 300px;
@@ -160,9 +168,19 @@ button {
   padding-top: 60px;
   background-color: #FFEDEA;
 }
+@media screen and (max-width: 500px) {
+  .tabs .tabs-items {
+    width: 100%;
+  }
+}
 .tabs img {
   width: 179px;
   height: 199px;
+}
+@media screen and (max-width: 500px) {
+  .tabs img {
+    width: 50%;
+  }
 }
 .tabs .tabs-item {
   display: none;
@@ -173,18 +191,44 @@ button {
   font-weight: bold;
   padding-bottom: 10px;
 }
+@media screen and (max-width: 500px) {
+  .tabs .tabs-item .tabs-item-title {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tabs .tabs-item {
+    width: 80%;
+  }
+}
 .tabs .tabs-item-selected {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+@media screen and (max-width: 500px) {
+  .tabs .tabs-item-selected {
+    width: 87%;
+  }
+}
 .tabs .tabs-item-context {
   text-align: center;
   margin-left: 30px;
 }
+@media screen and (max-width: 500px) {
+  .tabs .tabs-item-context {
+    width: 80%;
+    margin-left: 32px;
+  }
+}
 .tabs .tabs-links {
   display: flex;
   background-color: #FFEDEA;
+}
+@media screen and (max-width: 500px) {
+  .tabs .tabs-links {
+    width: 10%;
+  }
 }
 .tabs .tabs-link {
   padding: 20px 25px;
@@ -193,6 +237,14 @@ button {
   border-right: 1px solid #FFFFFF;
   color: #FFFFFF;
   cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+  .tabs .tabs-link {
+    width: 80%;
+    font-size: 20px;
+    padding: 15px 18px;
+    border-right: 2px solid #FFFFFF;
+  }
 }
 .tabs .tabs-link-selected {
   z-index: 2;
@@ -203,6 +255,11 @@ button {
 .tabs .tabs-link-selected:hover {
   background-color: #FFFFFF;
 }
+@media screen and (max-width: 500px) {
+  .tabs .tabs-link-selected {
+    width: 112%;
+  }
+}
 .tabs a {
   border: 2px solid #0A235C;
   color: white;
@@ -211,7 +268,17 @@ button {
   padding-left: 7px;
   padding-right: 7px;
 }
+@media screen and (max-width: 500px) {
+  .tabs a {
+    width: 80%;
+  }
+}
 .tabs .tabs-item-description {
   margin-bottom: 30px;
   margin-top: 50px;
+}
+@media screen and (max-width: 500px) {
+  .tabs .tabs-item-description {
+    width: 92%;
+  }
 }
